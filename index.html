@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Animated Navbar</title>
+    <!-- Google Font Sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="/assets/StudioSignum_LOGO_pixelPerfect.svg"
+          alt="Logo Image"
+        />
+      </div>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul id="nav-ul" class="nav-links">
+        <li><a href="#">Projekti</a></li>
+        <li><a href="#">O nas</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+
     <div id="bm"></div>
 
+    <script src="nav.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.4/lottie.min.js"></script>
     <script src="index.js"></script>
-
-</body>
+  </body>
 </html>
